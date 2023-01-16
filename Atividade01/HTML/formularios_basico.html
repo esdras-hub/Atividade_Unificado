@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios Básico</title>
+</head>
+<body>
+    <h1>IMPUTS BÁSICOS</h1>
+    <form action="/Atividade_Unificado/Atividade01/HTML/formularios_basico.html" method="post">
+        <label>Nome</label>
+        <br>
+        <input type="text" name="nome"/> <!-- name, usado no backend, no caso sera o php, CLASS usa no CSS, ID no JavaScript -->
+        <br>
+        <label>Senha</label>
+        <br>
+        <input type="password" name="senha"/>
+        <br>
+        <label>Escolha(Radio)</label>
+        <input type="radio" name="escolha">A
+        <input type="radio" name="escolha">B
+        <input type="radio" name="escolha">C
+        <br>
+        <label>Selecionar(CheckBox)</label>
+        <input type="checkbox" name="marcou">1
+        <input type="checkbox" name="marcou">2
+        <input type="checkbox" name="marcou">3
+        <br>
+        <label>Textão</label>
+        <br>
+        <textarea name="texto" rows="10" cols="50"></textarea>
+        <br>
+        <label>Subir Arquivo</label>
+        <input type="file" name="file"/>
+    </form>
+
+</body>
+</html>
